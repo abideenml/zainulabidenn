@@ -1,0 +1,42 @@
+baseURL = "https://zainn.io/"
+languageCode = "en-us"
+title = "Zain ul Abideen"
+theme = "archie"
+
+# Theme specific settings
+[params]
+  mode = "dark" # dark/light/auto
+  useCDN = false # don't use CDNs for fonts and icons, instead serve them locally
+  subtitle = "greatness comes from suffering!"
+
+# Social links
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/abideenml"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/zaynismm"
+
+# Main menu
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
